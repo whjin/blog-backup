@@ -33,12 +33,12 @@ tags: ["前端","node.js"]
 
 ## 技术栈分析 ##
 
-socket.io是一个开源WebSocket库，它通过Node.js实现WebSocket服务端，同时提供客户端JS库。socket.io支持以事件为基础的实时双向通讯，可以工作在任何平台、浏览器或移动设备。
+`socket.io`是一个开源`WebSocket`库，它通过`Node.js`实现`WebSocket`服务端，同时提供客户端`JS`库。`socket.io`支持以事件为基础的实时双向通讯，可以工作在任何平台、浏览器或移动设备。
 
-1. Node.js+Express/koa/egg环境搭建
-2. socket.io
+1. `Node.js+Express/koa/egg`环境搭建
+2. `socket.io`
 3. 聊天基础版（壳模型）
-4. 模板引擎（jade/pug）
+4. 模板引擎（`jade/pug`）
 5. 聊天界面
 6. 系统消息
 7. 用户上下线
@@ -53,8 +53,8 @@ socket.io是一个开源WebSocket库，它通过Node.js实现WebSocket服务端�
 	2. 对每个组件进行分析，确认需要使用的技术；
 	3. 再次确认细节，进行切图工作，如果不具备这项能力可以自己动手画图；
 2. 搭建开发环境：
-	1. 技术栈Node.js+socket.io+Express/koa+Mongodb；
-	2. 安装Node.js并配置相关依赖，Express有自己的生成器
+	1. 技术栈`Node.js+socket.io+Express/koa+Mongodb`；
+	2. 安装`Node.js`并配置相关依赖，Express有自己的生成器
 	3. 搭建壳模型，也就是最简易的聊天室
 	4. 开发平台推荐使用Linux或者使用Mac
 3. 功能介绍：
@@ -68,14 +68,14 @@ socket.io是一个开源WebSocket库，它通过Node.js实现WebSocket服务端�
     3. 图片传输
     4. 上下线通知
 4. 技术点：
-    1. Node.js
-    2. Express
-    3. socket.io（包括客户端和服务器端代码，这个直接看官网的文档）
-        1. server
-        2. client
-    4. html/css
-    5. sco.js、messenger.js
-    6. **模板引擎（jade/pug）是非常重要的一个工具，配合Node.js可以帮助你完成一些复杂的任务，需要重点掌握**
+    1. `Node.js`
+    2. `Express`
+    3. `socket.io`（包括客户端和服务器端代码，这个直接看官网的文档）
+        1. `server`
+        2. `client`
+    4. `html/css`
+    5. `sco.js、messenger.js`
+    6. **模板引擎（`jade/pug`）是非常重要的一个工具，配合`Node.js`可以帮助你完成一些复杂的任务，需要重点掌握**
     7. 聊天界面设计：
         1. 用户列表（用户上线添加/下线移除，用户每次的变更都进行整体更新，不做单独的移除。如果需要进行单独移除，可通过用户下线时的指定对象来移除特定用户）
         2. 聊天窗口
@@ -85,7 +85,7 @@ socket.io是一个开源WebSocket库，它通过Node.js实现WebSocket服务端�
             4. 键盘事件
     8. 系统消息
         1. 界面提醒（上/下线提醒）
-        2. sco.js/message.js    
+        2. `sco.js/message.js`    
     9. 用户上下线
 ![](https://i.imgur.com/EfROll6.png)
 
@@ -104,9 +104,9 @@ socket.io是一个开源WebSocket库，它通过Node.js实现WebSocket服务端�
 
 1. 聊天室分为客户端和服务端，完整的应用其实就是把这两个模块连接起来实现数据通信，然后在分别对两个模块进行细分；
 2. 根据细节的结果确定其中涉及的技术问题，逐一进行解决，类似于搭积木游戏；
-3. 比如客户端模块需要html/css/js、模板引擎；服务器模块需要Node.js/Express/Koa、sco.js/message.js、数据库技术等；
-4. Node.js很适合应用在高并发的场景中，高并发的场景可以使用Nginx来做负载均衡，会有哪些难点需要在实际项目中才会知道，大概是在读写数据和数据传输方面会有一些需要重点解决的问题；
-5. 在Node.js中写测试，包括了测试框架、测试异步函数、私有方法、模拟测试环境、依赖HTTP协议的web应用，需要了解TDD和BDD，还有需要提供测试的覆盖率
+3. 比如客户端模块需要`html/css/js`、模板引擎；服务器模块需要`Node.js/Express/Koa`、`sco.js/message.js`、数据库技术等；
+4. `Node.js`很适合应用在高并发的场景中，高并发的场景可以使用Nginx来做负载均衡，会有哪些难点需要在实际项目中才会知道，大概是在读写数据和数据传输方面会有一些需要重点解决的问题；
+5. 在`Node.js`中写测试，包括了测试框架、测试异步函数、私有方法、模拟测试环境、依赖`HTTP`协议的`web`应用，需要了解`TDD`和`BDD`，还有需要提供测试的覆盖率
 
 ### Node.js单元测试工具 ###
 
