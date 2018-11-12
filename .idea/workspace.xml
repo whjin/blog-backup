@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34ea9ea8-be26-436e-98bd-7922951a0b9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/基于Node.js的实时聊天室.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/基于Node.js的实时聊天室.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/新手学编程.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/新手学编程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/vexo/layout/page.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vexo/layout/page.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/vexo/source/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vexo/source/css/style.styl" afterDir="false" />
-    </list>
+    <list default="true" id="34ea9ea8-be26-436e-98bd-7922951a0b9e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,55 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="style.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/vexo/source/css/style.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
-              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/vexo/layout/_partial/footer.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pager.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/vexo/layout/_partial/pager.ejs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/vexo/layout/layout.ejs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="page.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/vexo/layout/page.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-              <folding>
-                <element signature="e#3174#4825#1#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/vexo/layout/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-236" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -106,7 +50,7 @@
       <path value="$PROJECT_DIR$/themes/vexo/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="250" />
     <option name="y" value="45" />
     <option name="width" value="1420" />
@@ -200,16 +144,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542053969123</updated>
-      <workItem from="1542053970446" duration="3268000" />
+      <workItem from="1542053970446" duration="3870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3268000" />
+    <option name="totallyTimeSpent" value="3870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="36" width="1136" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="200" y="36" width="1136" height="728" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24955437" />
       <window_info anchor="bottom" id="TODO" order="6" />
